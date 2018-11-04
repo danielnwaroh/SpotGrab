@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "756549447595",
+    "firebase_url": "https://spotgrab-cc915.firebaseio.com",
+    "project_id": "spotgrab-cc915",
+    "storage_bucket": "spotgrab-cc915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756549447595:android:537e535039c13e8c",
+        "android_client_info": {
+          "package_name": "com.example.spotgrab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756549447595-io15ftej88f674uaoop8sbfaivtoqbam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spotgrab",
+            "certificate_hash": "b6af70f3d2c29daf2159ceaa91eff5ef95c506c1"
+          }
+        },
+        {
+          "client_id": "756549447595-3jcu959b1dmhb7eailo5nvcb4vghdpkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT2T2xNx21eUv_MRqD1rxYDlrnLFOA2N4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756549447595-3jcu959b1dmhb7eailo5nvcb4vghdpkv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "756549447595-8indnh1k80ua6d7495egg9jid860u63u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.spotgrab"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
