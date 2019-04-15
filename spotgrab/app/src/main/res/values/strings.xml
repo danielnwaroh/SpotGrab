@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SpotGrab</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="account_details">account details</string>
+    <string name="account_type">Account Type</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="personal_details">personal details</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone #</string>
+    <string name="address">Address</string>
+    <string name="franchise">Franchise</string>
+
+    <string-array name="Account">
+        <item> </item>
+        <item>Employer</item>
+        <item>Spotter</item>
+    </string-array>
+
+    <string-array name="Plan">
+        <item> </item>
+        <item>$40 a month - Franchise Access</item>
+        <item>$50 a month - Same Industry Access</item>
+        <item>$60 a month - All Industry Access</item>
+    </string-array>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_profile">edit profile</string>
+
+</resources>

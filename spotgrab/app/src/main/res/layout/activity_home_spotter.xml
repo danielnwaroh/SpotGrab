@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeSpotterActivity">
+
+    <ImageView
+        android:id="@+id/createAccountLogo"
+        android:layout_width="444dp"
+        android:layout_height="163dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appbar" />
+
+    <FrameLayout
+        android:layout_width="320dp"
+        android:layout_height="273dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="310dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            app:cardBackgroundColor="@color/whiteBackgroundColor"
+            app:cardElevation="5dp"
+            app:cardPreventCornerOverlap="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/firstLastNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="115dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text=" "
+                android:textSize="36sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="230dp"
+                android:fontFamily="@font/roboto"
+                android:text="Jobs" />
+
+            <TextView
+                android:id="@+id/numJobsText"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="200dp"
+                android:fontFamily="@font/roboto"
+                android:text=""
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@android:style/Widget.Material.Light.RatingBar.Indicator"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="100dp"
+                android:layout_marginVertical="200dp"
+                android:isIndicator="true"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/beaconBt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="20dp"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/startTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="BEACON"
+                android:layout_gravity="end"
+                android:layout_marginVertical="50dp"
+                android:layout_marginHorizontal="20dp"/>
+
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="184dp"
+            android:layout_height="184dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorAccent"
+            android:elevation="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/postSchedButton"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/set_availability_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5" />
+
+        <Button
+            android:id="@+id/notificationSpotButton"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteBackgroundColor"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="availability"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:translationZ="10dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5" />
+
+        <Button
+            android:id="@+id/activeSpotButton"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteBackgroundColor"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="active"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:translationZ="10dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5" />
+
+        <Button
+            android:id="@+id/offersSpotButton"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/whiteBackgroundColor"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="offers"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:translationZ="10dp" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/menuSpotButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/menu_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+</android.support.constraint.ConstraintLayout>
